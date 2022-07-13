@@ -1,0 +1,63 @@
+/* Home Page */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: OpenSans, sans-serif;
+}
+
+h1 {
+    margin: 80px;
+    text-align: center;
+    font-family: 'Ibarra Real Nova', serif;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+.recipe img {
+    display: block;
+    height: 500px;
+    width: 350px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.container-recipes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.recipe {
+    margin: 0 auto;
+    max-width: 350px;
+}
+
+.recipe-title {
+    display: block;
+    text-align: center;
+    margin-top: 50x;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+    font-weight: 200;
+    border-bottom: 1px solid gray;
+}
+
+.recipe-title:hover {
+    color: royalblue;
+}
+
+.recipe-descr {
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+/* Lasagna Recipe */
