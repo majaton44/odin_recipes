@@ -63,10 +63,20 @@ h1 {
 /* Lasagna Recipe */
 
 .img-container {
+    position: relative;
     display: flex;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+}
+
+.img-container::after {
+    content: '';
+    position: absolute;
+    width: 850px;
+    height: 5px;
+    background-color: black;
+    bottom: -30px;
 }
 
 .img-container img {
@@ -75,7 +85,6 @@ h1 {
     width: 500px;
     margin: 0 40px;
     object-fit: cover;
-    border-radius: 20px;
 }
 
 .recipe-infos {
@@ -88,9 +97,46 @@ h1 {
     padding-top: 20px;
 }
 
+.recipe-info p {
+    font-style: italic;
+}
+
 .icons {
     height: auto; 
     width: auto; 
     max-width: 100px; 
     max-height: 100px;
+}
+
+.recipe-container { 
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    margin: 50px auto;
+    max-width: 800px;
+}
+
+.recipe-text {
+    width: 500px;
+    margin-left: 30px;
+}
+
+.ing-title {
+    margin-bottom: 20px;
+}
+
+.ingredients li {
+    line-height: 1.5;
+    color: #393434;
+    font-size: 15px;
+}
+
+.steps {
+    margin-bottom: 10px;
+}
+
+.step-title {
+    margin-bottom: 5px;
+    font-weight: 800;
+    color: rgb(93, 148, 10);
 }
