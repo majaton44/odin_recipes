@@ -10,7 +10,7 @@ body {
 }
 
 h1 {
-    margin: 80px;
+    margin: 70px;
     text-align: center;
     font-family: 'Ibarra Real Nova', serif;
     font-weight: 400;
@@ -61,3 +61,36 @@ h1 {
 
 
 /* Lasagna Recipe */
+
+.img-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img {
+    display: block;
+    height: 500px;
+    width: 500px;
+    margin: 0 40px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.recipe-infos {
+    margin-right: 20px;
+}
+
+.recipe-info {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.icons {
+    height: auto; 
+    width: auto; 
+    max-width: 100px; 
+    max-height: 100px;
+}
