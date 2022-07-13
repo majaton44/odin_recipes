@@ -51,23 +51,28 @@ h1 {
 }
 
 .recipe-title:hover {
-    color: royalblue;
+    color: #137fcc;
 }
 
 .recipe-descr {
     margin-top: 10px;
     text-align: center;
+    color: #393434;
 }
 
 
-/* Lasagna Recipe */
+/* Recipes */
 
-.img-container {
+.img-container, h2 {
     position: relative;
     display: flex;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+}
+
+h2 {
+    margin-top: 50px;
 }
 
 .img-container::after {
@@ -112,7 +117,7 @@ h1 {
     display: flex;
     margin: 0 auto;
     justify-content: center;
-    margin: 50px auto;
+    margin: 40px auto 20px auto;
     max-width: 800px;
 }
 
@@ -140,3 +145,26 @@ h1 {
     font-weight: 800;
     color: rgb(93, 148, 10);
 }
+
+.button a {
+    text-decoration: none;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto 50px auto;
+    padding: 12px 200px;
+    color: #fff;
+    background-image: linear-gradient(to right, #1FA2FF 0%, #12D8FA  21%, #1FA2FF  100%);
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 15px;
+}
+         
+  .btn:hover {
+    background-image: linear-gradient(to right, #137fcc 0%, #12D8FA  21%, #137fcc  100%);
+    color: #fff;
+    text-decoration: none;
+  }
+ 
